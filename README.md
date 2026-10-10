@@ -55,7 +55,7 @@
 | `bead-pattern-1.1.2-workbuddy.zip` | WorkBuddy 市场格式包；按宿主技能导入入口使用 |
 | `bead-pattern-1.1.2-skillhub.zip` | SkillHub 上传格式包；ZIP 根目录为 `SKILL.md`，使用平台允许的文件类型 |
 
-仓库根目录同样包含完整 `SKILL.md`、脚本和资源，可整体克隆到 Agent 的技能目录。安装后运行环境检查；具体宿主的技能入口与脚本权限以实际版本为准。目前已经验证的是 Windows 本地运行和安装包解压运行，尚未逐一验证所有 Agent 客户端。
+仓库根目录同样包含完整 `SKILL.md`、脚本和资源，可整体克隆到 Agent 的技能目录。安装后运行环境检查；具体宿主的技能入口与脚本权限以实际版本为准。2026-10-10 已通过 Windows、macOS、Linux 的 Node.js 24 自动测试，且已验证安装包解压运行；尚未逐一验证所有 Agent 客户端。
 
 ## 独立运行
 
