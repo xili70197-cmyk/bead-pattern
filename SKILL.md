@@ -1,8 +1,9 @@
 ---
 name: bead-pattern
+license: Apache-2.0
 description: 将用户上传的图片转换为六档拼豆图纸（长边29、48、100、200、300、500格），附Hama豆色号、各色数量、规格对比总览、打印PDF和工程备份；用于图片转拼豆、拼豆图纸、用豆统计和不同尺寸方案比较。
 metadata:
-  version: "1.1.2"
+  version: "1.1.3"
   author: "李熙萌"
 ---
 

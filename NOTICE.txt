@@ -1,0 +1,14 @@
+bead-pattern
+Copyright 2026 李熙萌
+
+The project code and documentation are licensed under the Apache License,
+Version 2.0. See LICENSE.txt for the complete license.
+
+Separately licensed resources retain their existing terms:
+- assets/palettes/hama.json: MIT License, see assets/palettes/LICENSE
+  (LICENSE.txt in the SkillHub package).
+- assets/labels/glyphs.json: SIL Open Font License 1.1,
+  see assets/labels/OFL.txt. The vector glyph data was adapted for chart labels.
+
+Runtime dependencies retain the licenses distributed with their packages.
+This project is not affiliated with or endorsed by Hama.

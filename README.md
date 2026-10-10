@@ -1,6 +1,6 @@
 # 免费拼豆｜一张图片，生成六种规格拼豆图纸
 
-**作者：李熙萌 · 当前版本：1.1.2**
+**作者：李熙萌 · 当前版本：1.1.3**
 
 [![自动测试](https://github.com/xili70197-cmyk/bead-pattern/actions/workflows/test.yml/badge.svg)](https://github.com/xili70197-cmyk/bead-pattern/actions/workflows/test.yml)
 
@@ -51,9 +51,9 @@
 
 | 下载包 | 用途 |
 |---|---|
-| `bead-pattern-1.1.2-generic.zip` | 通用技能包；解压得到完整 `bead-pattern` 文件夹，放入宿主技能目录 |
-| `bead-pattern-1.1.2-workbuddy.zip` | WorkBuddy 市场格式包；按宿主技能导入入口使用 |
-| `bead-pattern-1.1.2-skillhub.zip` | SkillHub 上传格式包；ZIP 根目录为 `SKILL.md`，使用平台允许的文件类型 |
+| `bead-pattern-1.1.3-generic.zip` | 通用技能包；解压得到完整 `bead-pattern` 文件夹，放入宿主技能目录 |
+| `bead-pattern-1.1.3-workbuddy.zip` | WorkBuddy 市场格式包；按宿主技能导入入口使用 |
+| `bead-pattern-1.1.3-skillhub.zip` | SkillHub 上传格式包；ZIP 根目录为 `SKILL.md`，使用平台允许的文件类型 |
 
 仓库根目录同样包含完整 `SKILL.md`、脚本和资源，可整体克隆到 Agent 的技能目录。安装后运行环境检查；具体宿主的技能入口与脚本权限以实际版本为准。2026-10-10 已通过 Windows、macOS、Linux 的 Node.js 24 自动测试，且已验证安装包解压运行；尚未逐一验证所有 Agent 客户端。
 
@@ -131,8 +131,8 @@ npm test
 
 ## 作者与资源许可
 
-作者：**李熙萌**。可下载本项目并在本地运行，生成自己的拼豆图纸。
+作者：**李熙萌**。本项目代码与文档采用 **[Apache License 2.0](LICENSE.txt)**，允许依许可证使用、修改、商用和再分发。再分发时保留许可证及适用的版权、NOTICE 声明；修改过的文件应注明修改。
 
-字形资源与色卡附带的必要授权声明分别保留在 `assets/labels/OFL.txt` 和 `assets/palettes/LICENSE`，不作为产品推广内容。公开仓库未额外指定整个项目的商业再分发授权。
+字形资源与色卡继续按各自许可使用，完整声明保留在 `assets/labels/OFL.txt` 和 `assets/palettes/LICENSE`；授权范围见 [NOTICE](NOTICE.txt)。图片和生成图纸中属于用户或第三方的内容，不因本项目代码许可而改变权利归属。
 
 遇到问题可在本仓库提交 Issue，附运行环境、命令和错误信息；请先去掉私人路径或不适合公开的图片。
