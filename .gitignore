@@ -1,0 +1,8 @@
+node_modules/
+evidence/
+outputs/
+.cache/
+.bead-job/
+*.tmp
+.DS_Store
+Thumbs.db
